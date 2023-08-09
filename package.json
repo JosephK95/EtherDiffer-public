@@ -1,0 +1,23 @@
+{
+  "name": "etherdiffer",
+  "version": "1.0.0",
+  "description": "Differential Testing on RPC Services of Ethereum Nodes",
+  "main": "main.js",
+  "scripts": {
+    "test": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(Temporarily Unavailable for Blind Review)"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "(Temporarily Unavailable for Blind Review)"
+  },
+  "homepage": "(Temporarily Unavailable for Blind Review)",
+  "dependencies": {
+    "solc": "^0.8.13",
+    "web3": "^1.7.3"
+  }
+}
