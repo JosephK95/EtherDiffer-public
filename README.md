@@ -23,6 +23,7 @@ Ethereum Nodes" (ESEC/FSE 2023)
 * .NET SDK 6.0
 * OpenJDK JRE 16
 * libsnappy-dev, libc6-dev, libc6
+* 16+ CPU cores, 8GB+ RAM
 
 ### Reproduction Steps
 Install the prerequisites if not installed:
@@ -70,6 +71,8 @@ Optionally, you can specify parameters:
 ```
 $ node src/main.js --chain 30 --tc 60 --mut-prob 0
 ```
+\* NOTE: The default setting takes a while during the chain
+generation.
 
 When executed, EtherDiffer goes through the following phases:
 
