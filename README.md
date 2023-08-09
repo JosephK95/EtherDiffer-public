@@ -1,5 +1,11 @@
 # EtherDiffer
-Differential Testing Tool for RPC Handling of Ethereum Nodes
+This repository contains the implementation of EtherDiffer,
+an automatic differential testing tool for RPC services of
+Ethereum nodes. For more details, please refer to the following
+paper: 
+
+"EtherDiffer: Differential Testing on RPC Services of
+Ethereum Nodes" (ESEC/FSE 2023)
 
 ## Structure
 * `clients/`: Binary files of target nodes 
